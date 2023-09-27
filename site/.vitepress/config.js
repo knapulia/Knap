@@ -23,22 +23,3 @@ export default defineConfig({
     // ],
   },
 })
----
-outline deep
----
-export default defineConfig({
-  ..
-  themeConfig: {
-    ...,
-    sidebar: [
-      ...,
-      {
-        text: "Лабораторні роботи",
-        items: [
-          ...,
-          { text: "Лабораторна робота №2", link: "/labs/2" }
-        ],
-      },
-    ],
-  },
-})
