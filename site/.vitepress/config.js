@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Кнап Юлія",
-  description: "Завдання Ім'я Студента",
+  description: "Звіт Кнап Юлія",
 
   // replace knu-template with name of your repository
   base: "/Knap/",
@@ -17,7 +17,22 @@ export default defineConfig({
         items: [{ text: "Лабораторна робота №1", link: "/labs/1" }],
       },
     ],
+export default defineConfig({
+  title: "Кнап Юлія",
+  description: "Звіт Кнап Юлія",
 
+  // replace knu-template with name of your repository
+  base: "/Knap/",
+
+  themeConfig: {
+    nav: [{ text: "Лабораторні", link: "/labs/2" }],
+
+    sidebar: [
+      {
+        text: "Лабораторні роботи",
+        items: [{ text: "Лабораторна робота №2", link: "/labs/2" }],
+      },
+    ],
     // socialLinks: [
     //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
     // ],
