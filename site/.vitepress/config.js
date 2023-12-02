@@ -38,9 +38,6 @@ export default defineConfig({
         items: [{ text: "Лабораторна робота №2", link: "/labs/2" }],
       },
     ],
-     // socialLinks: [
-    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    // ], 
   },
 })
 export default defineConfig({
@@ -59,8 +56,5 @@ export default defineConfig({
         items: [{ text: "Лабораторна робота №3", link: "/labs/3" }],
       },
     ],
-     // socialLinks: [
-    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    // ], 
   },
 })
