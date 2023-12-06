@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export  defineConfig({
   title: "Кнап Юлія",
   description: "Звіт Кнап Юлія",
 
@@ -22,7 +22,7 @@ export default defineConfig({
     // ],
   },
 })
-export default defineConfig({
+export  defineConfig({
    title: "Кнап Юлія",
   description: "Звіт Кнап Юлія",
 
@@ -40,7 +40,7 @@ export default defineConfig({
     ],
   },
 })
-export default defineConfig({
+export  defineConfig({
    title: "Кнап Юлія",
   description: "Звіт Кнап Юлія",
 
